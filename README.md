@@ -1,2 +1,2 @@
 # coursera
-scripts from courser
+scripts from coursera
