@@ -1,0 +1,96 @@
+MATRIX 2 --> 
+
+number of sequences = 20
+unadjusted information = 12.7041
+sample size adjusted information = 11.1117
+ln(p-value) = -168.705   p-value = 5.39964E-74
+ln(expected frequency) = -37.1444   expected frequency = 7.38576E-17
+A |   0   5   3   4   1   0  18   0   1   6  10   8   0   3   0   0   2   1  10   4
+C |   6   3   4   0   0   0   0  20   9   0   3   8   0   4  20  18  17   7   1   2
+G |   5   3  11  16  16  20   1   0   2   2   0   0  19   7   0   0   1   0   6  10
+T |   9   9   2   0   3   0   1   0   8  12   7   4   1   6   0   2   0  12   3   4
+matrix pattern: TTGGGGACCTA[A.C]GGCCCTAG
+
+             Rv1733c   1|16  :   1/187   TTCGTGACCGACGTCCCCAG
+             Rv1737c   2|1   :   2/141   TTGGGGACTTCCGGCCCTAA
+              Rv1738   3|3   :   3/117   GCCGGGACTTCAGGCCCTAT
+              Rv0079   4|4   :   4/162   CATGGGACTTTCGGCCCTGT
+              Rv0569   5|18  :   6/156   GAGGGGACTTTTGGCCACCG
+             Rv0571c   6|19  :   8/199   CCAGGGACCTAATTCCATAT
+             Rv0574c   7|8   :  10/139   TTGAGGACCTTCGGCCCCAC
+             Rv1734c   8|11  :  11/202   CTGGGGACCGAAGTCCCCGG
+              Rv1996   9|15  :  14/175   TTAGGGACCATCGCCTCCTG
+              Rv1997  10|7   :  15/161   TGGATGACTTACGGCCCTGA
+             Rv2005c  11|14  :  17/180   TTGGGGACTAAAGCCTCATG
+              Rv2006  12|6   :  18/184   CATGAGGCTTTAGTCCCCAA
+             Rv2031c  13|2   :  20/169   TCGGGGACTTCTGTCCCTAG
+              Rv2032  14|10  :  21/174   TTGGGGACCATTGACCCTGT
+              Rv2623  15|13  :  22/120   TTGAGGACCTAAGCCCGTTG
+             Rv2626c  16|20  :  24/161   CACGGGTCAAACGACCCTAG
+             Rv2627c  17|5   :  25/198   GGCGGGACGTAAGTCCCTAA
+              Rv2628  18|17  :  26/214   GAAGTGACGAAAGACCCCAG
+             Rv3130c  19|9   :  31/157   CGGAGGACCTTTGGCCCTGC
+             Rv3134c  20|12  :  34/159   GTGGGGACCAACGCCCCTGG
+
+MATRIX 3 -->
+
+number of sequences = 18
+unadjusted information = 13.3717
+sample size adjusted information = 11.5864
+ln(p-value) = -157.831   p-value = 2.84957E-69
+ln(expected frequency) = -36.9389   expected frequency = 9.07087E-17
+A |   0   3   3   4   0   0  18   0   0   5   9   7   0   2   0   0   2   1   8   3
+C |   4   3   3   0   0   0   0  18   9   0   3   7   0   4  18  16  15   6   1   2
+G |   5   3  11  14  15  18   0   0   2   2   0   0  17   7   0   0   1   0   6   9
+T |   9   9   1   0   3   0   0   0   7  11   6   4   1   5   0   2   0  11   3   4
+matrix pattern: TTGGGGACCTA[A.C]GGCCCTAG
+
+             Rv1733c   1|14  :   1/187   TTCGTGACCGACGTCCCCAG
+             Rv1737c   2|5   :   2/141   TTGGGGACTTCCGGCCCTAA
+              Rv1738   3|1   :   3/117   GCCGGGACTTCAGGCCCTAT
+              Rv0079   4|7   :   4/162   CATGGGACTTTCGGCCCTGT
+              Rv0569   5|10  :   6/156   GAGGGGACTTTTGGCCACCG
+             Rv0571c   6|4   :   8/199   CCAGGGACCTAATTCCATAT
+             Rv0574c   7|9   :  10/139   TTGAGGACCTTCGGCCCCAC
+             Rv1734c   8|18  :  11/202   CTGGGGACCGAAGTCCCCGG
+              Rv1996   9|16  :  14/175   TTAGGGACCATCGCCTCCTG
+              Rv1997  10|6   :  15/161   TGGATGACTTACGGCCCTGA
+             Rv2005c  11|15  :  17/180   TTGGGGACTAAAGCCTCATG
+             Rv2031c  12|2   :  20/169   TCGGGGACTTCTGTCCCTAG
+              Rv2032  13|11  :  21/174   TTGGGGACCATTGACCCTGT
+              Rv2623  14|13  :  22/120   TTGAGGACCTAAGCCCGTTG
+             Rv2627c  15|3   :  25/198   GGCGGGACGTAAGTCCCTAA
+              Rv2628  16|17  :  26/214   GAAGTGACGAAAGACCCCAG
+             Rv3130c  17|8   :  31/157   CGGAGGACCTTTGGCCCTGC
+             Rv3134c  18|12  :  34/159   GTGGGGACCAACGCCCCTGG
+
+MATRIX 4 -->
+
+number of sequences = 17
+unadjusted information = 13.6335
+sample size adjusted information = 11.733
+ln(p-value) = -150.297   p-value = 5.33188E-66
+ln(expected frequency) = -34.9011   expected frequency = 6.96075E-16
+A |   0   2   3   4   0   0  17   0   0   5   9   7   0   2   0   0   1   1   8   3
+C |   4   3   3   0   0   0   0  17   9   0   3   7   0   4  17  15  15   5   0   2
+G |   4   3  10  13  14  17   0   0   2   2   0   0  16   6   0   0   1   0   6   8
+T |   9   9   1   0   3   0   0   0   6  10   5   3   1   5   0   2   0  11   3   4
+matrix pattern: TTGGGGACCTA[A.C]GGCCCTAG
+
+             Rv1733c   1|10  :   1/187   TTCGTGACCGACGTCCCCAG
+             Rv1737c   2|7   :   2/141   TTGGGGACTTCCGGCCCTAA
+              Rv1738   3|11  :   3/117   GCCGGGACTTCAGGCCCTAT
+              Rv0079   4|16  :   4/162   CATGGGACTTTCGGCCCTGT
+             Rv0571c   5|15  :   8/199   CCAGGGACCTAATTCCATAT
+             Rv0574c   6|6   :  10/139   TTGAGGACCTTCGGCCCCAC
+             Rv1734c   7|14  :  11/202   CTGGGGACCGAAGTCCCCGG
+              Rv1996   8|4   :  14/175   TTAGGGACCATCGCCTCCTG
+              Rv1997   9|9   :  15/161   TGGATGACTTACGGCCCTGA
+             Rv2005c  10|2   :  17/180   TTGGGGACTAAAGCCTCATG
+             Rv2031c  11|8   :  20/169   TCGGGGACTTCTGTCCCTAG
+              Rv2032  12|5   :  21/174   TTGGGGACCATTGACCCTGT
+              Rv2623  13|1   :  22/120   TTGAGGACCTAAGCCCGTTG
+             Rv2627c  14|12  :  25/198   GGCGGGACGTAAGTCCCTAA
+              Rv2628  15|17  :  26/214   GAAGTGACGAAAGACCCCAG
+             Rv3130c  16|13  :  31/157   CGGAGGACCTTTGGCCCTGC
+             Rv3134c  17|3   :  34/159   GTGGGGACCAACGCCCCTGG

@@ -16,6 +16,6 @@ def complementDNA(line):
 
 lines = sys.stdin.read().splitlines() # read in the input from STDIN
 
-Text = lines[0]
-
+#Text = lines[0]
+Text = 'CCAGATC'
 print complementDNA(Text)

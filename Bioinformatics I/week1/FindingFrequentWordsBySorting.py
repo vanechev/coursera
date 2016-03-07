@@ -21,9 +21,9 @@ def FindingFrequentWordsBySorting(Text , k):
             FP.append(Pattern)
     return FP
 
-# Text = 'ACGTTGCATGTCGCATGATGCATGAGAGCT'
-# k = 4
+Text = 'TAAACGTGAGAGAAACGTGCTGATTACACTTGTTCGTGTGGTAT'
+k = 3
 
-# for f in FindingFrequentWordsBySorting(Text , k):
-#     print f,
+for f in FindingFrequentWordsBySorting(Text , k):
+    print f,
 

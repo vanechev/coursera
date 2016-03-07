@@ -1,0 +1,148 @@
+L-mer Width: 20
+Minimum distance between starting points of words: not relevant
+Save the top alignments derived from each intermediate alignment
+      Maximum number of matrices to save between cycles: 1000
+Status of complementary sequence: IGNORE.
+Algorithim options: one match per sequence.
+                    Stop only when the maximum number of cycles is reached.
+The number of matrices to print.
+      Top Matrices saved from each cycle: 4
+      Matrices Saved from the last cycle: NONE
+
+***** Sequence information *****
+sequence 1: Rv1733c
+      fragments: 1-250
+sequence 2: Rv1737c
+      fragments: 1-250
+sequence 3: Rv1738
+      fragments: 1-250
+sequence 4: Rv0079
+      fragments: 1-250
+sequence 5: Rv0081
+      fragments: 1-250
+sequence 6: Rv0569
+      fragments: 1-250
+sequence 7: Rv0570
+      fragments: 1-250
+sequence 8: Rv0571c
+      fragments: 1-250
+sequence 9: Rv0572c
+      fragments: 1-250
+sequence 10: Rv0574c
+      fragments: 1-250
+sequence 11: Rv1734c
+      fragments: 1-250
+sequence 12: Rv1812c
+      fragments: 1-250
+sequence 13: Rv1813c
+      fragments: 1-250
+sequence 14: Rv1996
+      fragments: 1-250
+sequence 15: Rv1997
+      fragments: 1-250
+sequence 16: Rv2003c
+      fragments: 1-250
+sequence 17: Rv2005c
+      fragments: 1-250
+sequence 18: Rv2006
+      fragments: 1-250
+sequence 19: Rv2007c
+      fragments: 1-250
+sequence 20: Rv2031c
+      fragments: 1-250
+sequence 21: Rv2032
+      fragments: 1-250
+sequence 22: Rv2623
+      fragments: 1-250
+sequence 23: Rv2625c
+      fragments: 1-250
+sequence 24: Rv2626c
+      fragments: 1-250
+sequence 25: Rv2627c
+      fragments: 1-250
+sequence 26: Rv2628
+      fragments: 1-250
+sequence 27: Rv2629
+      fragments: 1-250
+sequence 28: Rv2631
+      fragments: 1-250
+sequence 29: Rv2830c
+      fragments: 1-250
+sequence 30: Rv3129
+      fragments: 1-250
+sequence 31: Rv3130c
+      fragments: 1-250
+sequence 32: Rv3131
+      fragments: 1-250
+sequence 33: Rv3133c
+      fragments: 1-250
+sequence 34: Rv3134c
+      fragments: 1-250
+sequence 35: Rv3128c
+      fragments: 1-250
+sequence 36: Rv3841
+      fragments: 1-250
+
+Total number of sequences: 36.
+Total number of sequence fragments: 36.
+
+#**** Information on observed frequency and occurrence of each letter. ****#
+#Total number of letters in the input sequences = 9000
+A  0.193667; observed occurrence =  1743 (letter   1)
+C  0.310333; observed occurrence =  2793 (letter   2)
+G  0.314333; observed occurrence =  2829 (letter   3)
+T  0.181667; observed occurrence =  1635 (letter   4)
+
+PRIOR FREQUENCIES DETERMINED BY OBSERVED FREQUENCIES.
+***** Information for the alphabet from the command line. *****
+letter   1: A (complement: T)  prior frequency = 0.193667
+letter   2: C (complement: G)  prior frequency = 0.310333
+letter   3: G (complement: C)  prior frequency = 0.314333
+letter   4: T (complement: A)  prior frequency = 0.181667
+
+
+INFORMATION CONTENT IS CALCULATED USING NATURAL LOGARITHMS (i.e. BASE e).
+DIVIDE BY ln(2) = 0.693 TO CONVERT TO BASE 2, WHICH WAS USED IN
+PREVIOUS VERSIONS OF THIS PROGRAM.
+
+      []            MATRICES SAVED FOR NEXT CYCLE             []
+      []------------------------------------------------------[]
+      []  total   | top adjusted |   ln top    [] ln expected []
+CYCLE []  number  | information  |   p-value   []  frequency  []
+------[]----------|--------------|-------------[]-------------[]
+    1 []     8316 |       3.8855 |      0.0000 []      9.0259 []
+    2 []      601 |       8.8542 |    -16.9286 []      0.4020 []
+    3 []      899 |      11.6568 |    -29.7562 []     -4.5555 []
+    4 []      834 |      12.2185 |    -37.9589 []     -5.2055 []
+    5 []      886 |      13.0812 |    -49.9250 []     -9.8730 []
+    6 []      861 |      13.2337 |    -59.3655 []    -12.2288 []
+    7 []      867 |      13.2311 |    -68.4657 []    -14.4313 []
+    8 []      872 |      13.2574 |    -78.2815 []    -17.5168 []
+    9 []      844 |      13.1113 |    -86.8732 []    -19.5311 []
+   10 []      875 |      12.9479 |    -95.3299 []    -21.5522 []
+   11 []      869 |      12.7531 |   -103.3867 []    -23.3063 []
+   12 []      883 |      12.4951 |   -110.5227 []    -24.2660 []
+   13 []      868 |      12.4123 |   -119.6944 []    -27.3821 []
+   14 []      869 |      12.2688 |   -128.0079 []    -29.7568 []
+   15 []      866 |      12.1390 |   -136.3978 []    -32.3213 []
+   16 []      868 |      11.9286 |   -143.3670 []    -33.5761 []
+   17 []      879 |      11.7330 |   -150.2969 []    -34.9011 []
+   18 []      887 |      11.5864 |   -157.8312 []    -36.9389 []
+   19 []      865 |      11.3620 |   -163.6981 []    -37.4175 []
+   20 []      894 |      11.1117 |   -168.7050 []    -37.1444 []
+   21 []      914 |      10.7780 |   -171.5861 []    -34.8550 []
+   22 []      922 |      10.4931 |   -174.9627 []    -33.1723 []
+   23 []      932 |      10.3165 |   -180.2888 []    -33.5523 []
+   24 []      941 |      10.0067 |   -182.2239 []    -30.6582 []
+   25 []      948 |       9.8053 |   -186.2541 []    -29.9799 []
+   26 []      941 |       9.6039 |   -189.9452 []    -29.0888 []
+   27 []      947 |       9.3901 |   -192.9738 []    -27.6682 []
+   28 []      951 |       9.2294 |   -197.0640 []    -27.4510 []
+   29 []      955 |       9.0298 |   -199.8011 []    -26.0335 []
+   30 []      964 |       8.8457 |   -202.6374 []    -24.8827 []
+   31 []      972 |       8.6609 |   -205.1371 []    -23.5822 []
+   32 []      973 |       8.4769 |   -207.3408 []    -22.1997 []
+   33 []      976 |       8.3056 |   -209.6200 []    -21.1467 []
+   34 []      994 |       8.1117 |   -210.8727 []    -19.3847 []
+   35 []      992 |       7.9498 |   -212.8468 []    -18.7787 []
+   36 []      999 |       7.7618 |   -213.6498 []    -17.7228 []

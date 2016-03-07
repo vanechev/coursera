@@ -12,6 +12,9 @@ lines = sys.stdin.read().splitlines() # read in the input from STDIN
 # lines[0]="GCGCG"
 # lines[1]="GCG"
 
-Text = lines[0]
-Pattern = lines[1]
+#Text = lines[0]
+#Pattern = lines[1]
+
+Text = 'ACTGTACGATGATGTGTGTCAAAG'
+Pattern= 'TGT'
 print PatternCount(Text,Pattern)

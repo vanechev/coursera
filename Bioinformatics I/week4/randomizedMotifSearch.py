@@ -169,27 +169,29 @@ def randomizedMotifSearch(Dna,k,t):
 	while True:
 		profile = Profile(Motifs1)
 		Motifs1 = getMotifs(profile,Dna)
-		#print Score(Motifs1), Score(BestMotifs)
+		print Score(Motifs1), Score(BestMotifs)
 		if Score(Motifs1) < Score(BestMotifs):
 			BestMotifs = Motifs1
 		else:
 			return BestMotifs
 
 
-lines = sys.stdin.read().splitlines()
-k = int(lines[0].split(' ')[0])
-t = int(lines[0].split(' ')[1])
-Dna = []
-Dna = lines[1:]
+# lines = sys.stdin.read().splitlines()
+k = 3
+t = 4
+# Dna = []
+# Dna = lines[1:]
+Dna = ['AAGCCAAA','AATCCTGG','GCTACTTG','ATGTTTTG']
+motifs = ['CCA','CCT','CTT','TTG']
 
-best = []
-for repeat in xrange(1000):
+best = motifs
+for repeat in xrange(1):
 	print >> sys.stderr,"Iteration: %d\r"%(repeat),
-	motifs = randomizedMotifSearch(Dna,k,t)
-	if Score(motifs) < Score(best):
-		best = motifs
+	profile = Profile(best)
+	motifs = getMotifs(profile,Dna)
+	
 
-for el in best:
+for el in motifs:
 	print el
 
 
